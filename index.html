@@ -1,5 +1,22 @@
 <!DOCTYPE html>
-<html lang="tr">
-<head>…</head>
-<body>…</body>
+<html>
+<head>
+  <title>Instagram - Test Login</title>
+  <style>
+    body { font-family: Arial; text-align: center; margin-top: 50px; }
+    .login-box { width: 300px; margin: auto; padding: 20px; border: 1px solid #ccc; }
+    input { display: block; width: 90%; margin: 10px auto; padding: 8px; }
+  </style>
+</head>
+<body>
+  <h2>Instagram (Test Simulation)</h2>
+  <div class="login-box">
+    <form action="/test-login" method="POST">
+      <input type="text" name="username" placeholder="Kullanıcı adı" required>
+      <input type="password" name="password" placeholder="Şifre" required>
+      <button type="submit">Giriş Yap</button>
+    </form>
+  </div>
+  <p style="color:red;">⚠️ Bu sayfa sadece siber güvenlik testi içindir.</p>
+</body>
 </html>
